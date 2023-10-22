@@ -219,3 +219,29 @@ app_license = "mit"
 # auth_hooks = [
 #	"saas.auth.validate"
 # ]
+fixtures = [
+    {
+        "doctype": "Custom Field",
+        "filters": [
+            [
+                "name",
+                "in",
+                [
+                    "Customer-custom_company",
+                    "Customer-custom_company",
+                    "Customer-custom_company",
+                    "Bank Account-custom_company",
+                    "Price List-custom_company",
+                    "Address-custom_company",
+                    "Contact-custom_company",
+                    "Contact-custom_company",
+                    "Sales Person-custom_company",
+                    "Item-custom_company",
+                    "Batch-custom_company",
+                    "Supplier-custom_company",
+                    "Supplier Group-custom_company",
+                ]
+            ]
+        ]
+    }
+]
